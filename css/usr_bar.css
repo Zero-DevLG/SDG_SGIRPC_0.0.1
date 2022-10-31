@@ -1,0 +1,110 @@
+#body_nav {
+    position: absolute;
+    overflow: hidden;
+    left: 10px;
+    top: 320px;
+    width: 60px;
+    height: 150px;
+    background-color: rgb(253, 253, 253);
+    border-radius: 10px;
+    box-shadow: -10px 10px 10px -10px black;
+    z-index: 1;
+    padding-top: 20px;
+    overflow-y: auto;
+}
+
+#report_usr {
+    position: absolute;
+    top: 60%;
+}
+
+#report_usr input {
+    position: relative;
+}
+
+hr {
+    position: relative;
+    color: white;
+    width: 380px;
+    left: -250px;
+}
+
+#logs{
+    position: relative;
+    top: 50px;
+}
+
+#v {
+    position: absolute;
+    left: 40%;
+    top: 1%;
+    border: none;
+    border-left: 3px solid hsla(200, 10%, 50%, 100);
+    height: 590px;
+    width: 5px;
+    color: white;
+}
+
+#tabs_documentos5 {
+    position: absolute;
+    left: 42%;
+    top: 10%;
+}
+
+a {
+    color: white;
+}
+
+#table_reg {
+    position: absolute;
+    left: 42%;
+    top: 20%;
+    width: 630px;
+    height: 460px;
+    overflow-y: auto;
+    font-size: 10px;
+    color: white;
+    background-color: white;
+    border-radius: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+#table_tt {
+    font-size: 10px;
+}
+
+#table_dir {
+    font-size: 10px;
+}
+
+#table_dir thead {
+    width: 300px;
+}
+
+#img_usr {
+    width: 50px;
+    position: absolute;
+    left: 8px !important;
+    top: 10px !important;
+    transition: transform .5s ease-out;
+}
+
+#img_usr:hover {
+    filter: saturate(250%);
+    transform: scale(1.5, 1.5);
+}
+
+#close {
+    position: absolute;
+    left: 5px;
+    top: 2%;
+    width: 50px;
+    display: none;
+}
+
+#info_usr {
+    color: white;
+}

@@ -1,0 +1,91 @@
+'switch ($tipo_user) {
+
+case 0:
+    # code...
+    $_SESSION["tipo_user"] = $tipo_user;
+    $_SESSION["foto"] = $foto;
+    $_SESSION["area"] = $area;
+    $_SESSION["direccion"] = $direccion;
+    $_SESSION["id_direccion"] = $id_direccion;
+    $_SESSION["nombre"] = $nombre;
+    $_SESSION["usuario"] = $usuario;
+    $_SESSION["apellido"] = $apellido;
+    $_SESSION['n_empleado'] = $n_empleado;
+    $_SESSION['last_login'] = $login;
+    header("Location: ../View/admin_panel.php");
+    break;
+
+
+case 1:
+    # code...
+    $_SESSION["tipo_user"] = $tipo_user;
+    $_SESSION["foto"] = $foto;
+    $_SESSION["area"] = $area;
+    $_SESSION["direccion"] = $direccion;
+    $_SESSION["id_direccion"] = $id_direccion;
+    $_SESSION["nombre"] = $nombre;
+    $_SESSION["usuario"] = $usuario;
+    $_SESSION["id_empleado"] = $id_empleado;
+    $_SESSION["apellido"] = $apellido;
+    $_SESSION['n_empleado'] = $n_empleado;
+    $_SESSION['last_login'] = $login;
+    header("Location: ../View/doc.php");
+    break;
+}
+
+
+
+
+
+
+
+
+
+//////////////
+
+
+else 
+                {
+                    $_SESSION["tipo_user"] = $tipo_user;
+                    $_SESSION["foto"] = $foto;
+                    $_SESSION["area"] = $area;
+                    $_SESSION["direccion"] = $direccion;
+                    $_SESSION["id_direccion"] = $id_direccion;
+                    $_SESSION["nombre"] = $nombre;
+                    $_SESSION["usuario"] = $usuario;
+                    $_SESSION["id_empleado"] = $id_empleado;
+                    $_SESSION["apellido"] = $apellido;
+                    $_SESSION['n_empleado'] = $n_empleado;
+                    $_SESSION['last_login'] = $login;
+                    header("Location: ../View/vehicular2.php");
+                }
+
+
+
+
+                ///////////////////////////////////////////
+
+
+                $Fecha = date('Y-m-d');
+                    $mDate = new DateTime();
+                    $hora = $mDate->format("H:i:s");
+                    $accion = "inicio de sesion";
+                    $query = "0";
+                    $id_documento = 0;
+
+                    $update_log = $pdo->prepare("INSERT INTO logs(usuario,id_usr,id_direccion,accion,query,id_documento,fecha_accion,hora_accion) VALUES(:usuario,:id_usr,:id_direccion,:accion,:query,:id_documento,:fecha_accion,:hora_accion)");
+                    $update_log->bindParam(':usuario', $usuario);
+                    $update_log->bindParam(':id_usr', $id_empleado);
+                    $update_log->bindParam(':id_direccion', $id_direccion);
+                    $update_log->bindParam(':accion', $accion);
+                    $update_log->bindParam(':query', $query);
+                    $update_log->bindParam(':id_documento', $id_documento);
+                    $update_log->bindParam(':fecha_accion', $Fecha);
+                    $update_log->bindParam(':hora_accion', $hora);
+                    $update_log->execute();
+
+                    $last_login = $pdo->prepare("UPDATE empleado SET last_login = '$Fecha.$hora' WHERE id_empleado = '$id_empleado'");
+                    $last_login->execute();
+                    echo $hora;
+                    session_start();
+                    $_SESSION["usuario"] = $_POST["login"];

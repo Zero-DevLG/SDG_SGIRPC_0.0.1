@@ -1,0 +1,202 @@
+/* 
+    colores rojo  rgb(116, 40, 40)
+
+
+*/
+
+
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.modal
+{
+    width: 100% !important;
+    overflow-y: hidden !important;
+    background-color: rgba(213, 63, 63, 0.331) !important;
+}
+
+.modal-content
+{
+    position: relative !important;
+    padding: 0;
+    margin: 0;
+}
+
+.modal-body
+{
+    position: relative !important;
+    padding: 0 !important;
+    overflow-y: hidden !important;
+}
+
+#main-content
+{
+    position: relative;
+    width: 95%;
+    height: 50px;
+    background-color: white;
+}
+
+/* Estilos de la tabla */
+#data-table
+{
+    position: relative;
+    width: 80%;
+    height: 750px;
+    text-align: center;
+    font-size: 12px !important;
+    left: 10%;
+    top: 100px;
+    overflow-y: auto;
+}
+
+/* Estilos del Modal selected */
+.modal-header
+{
+    background-color: rgb(116, 40, 40);
+    color: white !important;
+}
+
+.title
+{
+    color: rgb(85, 132, 193) !important;
+}
+
+.prioridad
+{
+    font-family: 'Times New Roman', Times, serif !important;
+    color: rgb(102, 44, 211);
+}
+
+.title-dir
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: blueviolet;   
+}
+
+.row-d 
+{
+    position: relative;
+    top: 8px !important;
+}
+
+.folio_dir
+{
+    color: rgb(43, 113, 226);
+}
+
+.hr-i
+{
+    height: 8px !important;
+    color: rgb(105, 42, 42) !important;
+}
+
+.main-content
+{
+    position: relative;
+    display: flex;
+    overflow-y: hidden;
+}
+
+#side-menu
+{
+    position: relative;
+    width: 200px;
+    height: 600px;
+    background-color: rgb(95, 95, 95) ;
+    color: white;
+    padding: 0;
+    margin: 0;
+
+}
+
+#show-data
+{
+    position: relative;
+    width: 80%;
+    padding: 10px;
+    font-size: 11px !important;
+
+}
+
+.list-2
+{
+    position: relative;
+    top: 20px;
+    background-color: rgb(95, 95, 95) !important;
+    color: white;
+    border-bottom: 1px solid white !important;
+    cursor: pointer;
+    transition: all ease-in 200ms;
+}
+
+.icon-s2
+{
+    width: 60px;
+}
+
+.icon-s
+{
+    width: 30px;
+}
+
+#head
+{
+    position: relative;
+    width: 100%;
+    top: 20px;
+}
+
+#logo-head
+{
+    position: relative;
+    width: 400px;
+}
+
+/* Estilos data document */
+
+#fecha_limite
+{
+    color:  rgb(243, 111, 34);
+}
+
+
+
+/* Estilos Modal Turn */
+
+#head-turn
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+
+#folio
+{
+    position: relative;
+    left: 38%;
+    top: 10px;
+}
+
+#id-document
+{
+    position: relative;
+    width: 100%;    
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+#data-document
+{
+    position: relative;
+    width: 90%;
+    height: 500px !important;
+    top: 100px;
+    overflow-y: auto;
+}

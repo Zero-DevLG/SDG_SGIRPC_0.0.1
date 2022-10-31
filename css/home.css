@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "anurati";
+    src: url("fonts/Anurati.otf");
+}
+
+@font-face {
+    font-family: "Blanka-regular";
+    src: url("fonts/Blanka-Regular.ttf");
+}
+
+#container-home {
+    position: relative;
+    top: 30px;
+    left: 90px;
+    width: 93%;
+    height: 850px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: -10px 10px 10px -10px black;
+}
+
+#modules_sys {
+    position: relative;
+    top: 20px;
+    left: 30px;
+    width: 800px;
+    height: 800px;
+    border: 1px solid rgb(143, 142, 142);
+    border-radius: 15px;
+    padding-left: 20px;
+}
+
+#modules_sys h3 {
+    font-family: "anurati";
+    color: cadetblue;
+    padding-top: 15px;
+}
+
+#back_ti {
+    position: relative;
+    top: -140px;
+    border-radius: 15px;
+    width: 400px;
+    box-shadow: -15px 15px 15px -10px rgb(112, 112, 112);
+    z-index: 0;
+}
+
+#link_ti {}
+
+#b_ti {
+    position: relative;
+    top: 10px;
+    width: 450px;
+    border-radius: 15px;
+    transition: transform 0.2s ease-out;
+    z-index: 1;
+}
+
+#b_doc {
+    position: relative;
+    top: 20px;
+    width: 450px;
+    border-radius: 15px;
+    transition: transform 0.2s ease-out;
+    z-index: 1;
+}
+
+#b_car {
+    position: relative;
+    top: 30px;
+    width: 450px;
+    border-radius: 15px;
+    transition: transform 0.2s ease-out;
+    z-index: 1;
+}
+
+#b_root {
+    position: relative;
+    top: 40px;
+    width: 450px;
+    border-radius: 15px;
+    transition: transform 0.2s ease-out;
+    z-index: 1;
+}

@@ -1,0 +1,387 @@
+
+  @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans',sans-serif;
+  
+ 
+}
+
+  body {
+    width: 100%;
+    height: 100%;
+    /*background-image: url("../img/Tecnología.gif");*/
+    background-color: rgb(242, 246, 248);
+    overflow-x: hidden;
+     }
+
+    
+    #modal_head
+    {
+      background-color: rgb(80, 80, 238);
+      color: white;
+    }
+
+     input:invalid  
+     {
+       border: none !important
+    }
+
+
+     input:invalid 
+     {
+      box-shadow: none !important;
+    }
+    #movile
+    {
+      position: absolute;
+      max-width: 300px;
+      display: none;
+      top: 100px;
+      left: 10%;
+      text-align: center;
+      color: white;
+
+    } 
+    #movile img
+    {
+      position: relative;
+      width: 100px;
+    }
+
+    #genero
+    {
+      position: relative;
+      top: 5px;
+      left:0px;
+      height: 80px;
+    }
+    #masculino
+    {
+      position: relative;
+      left: 70px;
+    }
+    #label_m
+    {
+      position: relative;
+      left: 80px;
+    }
+
+    #top
+    {
+      position: absolute;
+      top: 0px;
+      width: 100%;
+      height: 200px;
+      background-color: #f8f8f8;
+    
+    }
+
+    #icon_m
+    {
+      position: relative;
+      width: 50px;
+      top: -5px;
+    }
+    #femenino
+    {
+      position: relative;
+      left: 130px;
+    }
+
+    #label_f
+    {
+      position: relative;
+      left:140px;
+    }
+    
+    #icon_f
+    {
+      position: relative;
+      width: 50px;
+      left: 0px;
+    }
+
+
+  #btn_nocturno{
+    position: absolute;
+    top: 10px;
+    color: rgb(134, 134, 134);
+  }
+
+  #contenido_izquierda{
+    position: relative;
+    margin: auto;
+    left: 0px; 
+  }
+
+  #contenido_izquierda h3
+  {
+    position: relative;
+    top: 200px;
+  }
+    
+
+  #contenido_izquierda img{
+    position: relative;
+    margin: auto;
+    width: 700px;
+  }
+
+  #logo_img{
+    position: relative;
+   
+    width: 700px;
+  }
+
+  #temp-screen
+  {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 5%;
+    background-color: black;
+    bottom: 0;
+    color: white;
+    font-size: 20px;
+  }
+
+  /*  Columnas-GRID  */
+  #col1
+  {
+    position: relative;
+  }
+  #col3
+  {
+    position: relative;
+    justify-content: center;
+    color: white;
+  }
+
+
+
+
+  /* End */  
+
+  #contenido_izquierda h3{
+    position: absolute;
+    top: 180px;
+    left: 100px;
+    font-weight: lighter;
+    color: rgb(136, 138, 138);
+  }
+
+
+  #borde_inferior{
+    position: absolute;
+      top: 280px;
+      left: 10px;
+      width: 90%;
+      border-bottom: 1px solid #c7c7c7;
+
+  }
+
+    #pass_ol{
+      position: absolute;
+      top: 250px;
+      left: 110px;
+      font-size: 12px;
+      
+
+    }
+
+  .form{
+    width: 100%;
+    height: 350px;
+    max-width: 400px;
+    border-radius: 5%;
+    position: relative;
+    top: 0px;
+    left: 0%;
+    overflow: hidden;
+    background-color: rgb(235, 232, 232);
+    box-shadow: -10px 10px 10px -10px black;
+    
+  }
+  .large
+  {
+    position: relative;
+    width: 100%;
+    height: 380px;
+    padding-top: 10px;
+  }
+
+  #cc
+  {
+    padding-left: 50px;
+    
+  }
+
+  #info_data
+  {
+    position: relative;
+   
+  }
+  
+
+  #panel_p
+  {
+    position: relative;
+    width: 500px;
+    height: 350px;
+    max-width: 400px;
+    border-radius: 5%;
+    overflow: hidden;
+    background-color: rgb(204, 204, 204);
+    box-shadow: -10px 10px 10px -10px black;
+    
+  }
+
+  #reg{
+    position: relative;
+    top: -50px;
+    left:140px;
+    
+
+  }
+
+  #btn_log{
+    position: absolute;
+    top: 200px;
+    left: 30%;
+
+  }
+  
+  .input-name:required:invalid {
+    outline: none;
+}
+
+
+  .form .input-name{
+
+    width: 280px;
+    height: 40px;
+    position: absolute;
+    background: none;
+    top: 30px;
+    left: 10px;
+    padding-top:20px;
+    border: none;
+    outline: none;
+    color: teal;
+    
+  }
+
+  .form .lbl-nombre{
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    top: -30px;
+    width: 70%; 
+    height: 100px;
+    pointer-events: none;
+    color: rgb(136, 136, 136);
+    border-bottom: 1px solid #c7c7c7;
+  }
+  .form .lbl-nombre:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 100%;
+    height: 100%;
+    border-bottom: 3px solid #2ecece;
+    transform: translateX(-110%);
+    transition: all 0.3s ease;
+  }
+
+  .text-nomb{
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    transition: all 0.3s ease;
+    color: rgb(165, 165, 165);
+
+  }
+
+  .form input:focus + .lbl-nombre .text-nomb,.form input:valid + .lbl-nombre .text-nomb{
+    transform: translateY(-160%);
+    font-size:14px;
+    color:#2ecece;
+  }
+
+  .form input:focus + .lbl-nombre:after,.form input:valid + .lbl-nombre:after{
+    transform: translateX(0%);
+  }
+
+  .form .input-pass{
+
+    width: 280px;
+    height: 40px;
+    position: absolute;
+    top: 130px;
+    left: 10px;
+    color: #fff;
+    padding-top:20px;
+    background: none;
+    border: none;
+    outline: none;
+    color: teal;
+    
+  }
+
+  .form .lbl-pass{
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    top: 70px;
+    width: 70%; 
+    height: 100px;
+    pointer-events: none;
+    border-bottom: 1px solid #c7c7c7;
+  }
+  .form .lbl-pass:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 100%;
+    height: 100%;
+    border-bottom: 3px solid #2ecece;
+    transform: translateX(-110%);
+    transition: all 0.3s ease;
+  }
+
+  .text-pass{
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    transition: all 0.3s ease;
+    color: rgb(165, 165, 165);
+
+  }
+
+  .form input:focus + .lbl-pass .text-pass,.form input:valid + .lbl-pass .text-pass{
+    transform: translateY(-160%);
+    font-size:14px;
+    color:#2ecece;
+  }
+
+  .form input:focus + .lbl-pass:after,.form input:valid + .lbl-pass:after{
+    transform: translateX(0%);
+  }
+  
+  #logo_c
+  {
+    position: relative;
+    width:430px;
+    top: -30px;
+    left: 220px;
+
+  }
+ 
+
+

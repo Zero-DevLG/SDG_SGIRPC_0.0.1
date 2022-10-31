@@ -1,0 +1,87 @@
+<styles>
+	<tabnavigator_rollover_color>mittel_bis_hell</tabnavigator_rollover_color>
+	<tabnavigator_pressed_color>232323</tabnavigator_pressed_color>
+	<tabnavigator_text_color>CACCCB</tabnavigator_text_color>
+	<tabnavigator_text_pressed_color>CACCCB</tabnavigator_text_pressed_color>
+	
+	<gradient_color_top>mittel_bis_hell</gradient_color_top>
+	<gradient_color_bottom>oscuro</gradient_color_bottom>
+	
+	<gradient_movie_icon_top>mittel_bis_hell</gradient_movie_icon_top>
+	<gradient_movie_icon_bottom>oscuro</gradient_movie_icon_bottom>
+	<gradient_other_icon_top>8e8e8e</gradient_other_icon_top>
+	<gradient_other_icon_bottom>555555</gradient_other_icon_bottom>
+	<icon_symbol_color>000000</icon_symbol_color>
+	
+	
+	<btn_text_color>c8cac9</btn_text_color>
+	<btn_pressed_text_color>c8cac9</btn_pressed_text_color>
+	<btn_rollover_color>mittel_bis_hell</btn_rollover_color>
+	<btn_pressed_color>c8cac9</btn_pressed_color>
+	
+	<index_color>muy_claro</index_color>
+	<index2_color>c8cac9</index2_color>
+	
+	<buffer_color>mittel_bis_hell</buffer_color>
+	<timecode_color>c8cac9</timecode_color>
+	<progressbar_color>000000</progressbar_color>
+	
+	<overlay_symbol_color>33CC00</overlay_symbol_color>
+	<overlay_btn_color>000000</overlay_btn_color>
+	<overlay_btn_alpha>75</overlay_btn_alpha>
+	
+	<form_highlight_color>mittel_bis_hell</form_highlight_color>
+	<form_highlight_alpha>100</form_highlight_alpha>
+	<form_text_color>a7a7a7</form_text_color>
+	
+	<mainmenu_header_color>muy_claro</mainmenu_header_color>
+	<mainmenu_subheader_color>muy_claro</mainmenu_subheader_color>
+	<mainmenu_color>muy_claro</mainmenu_color>
+	<mainmenu_rollover_color>muy_claro</mainmenu_rollover_color>
+	<mainmenu_rollover_alpha>20</mainmenu_rollover_alpha>
+	
+	<submenu_header_color>muy_claro</submenu_header_color>
+	<submenu_subheader_color>e5e5e5</submenu_subheader_color>
+	<submenu_color>e4e4e4</submenu_color>
+	<submenu_rollover_color>muy_claro</submenu_rollover_color>
+	<submenu_rollover_alpha>10</submenu_rollover_alpha>
+
+	<submenu_back_bar_color>2c2c2c</submenu_back_bar_color>
+	<submenu_back_bar_rollover_color>373737</submenu_back_bar_rollover_color>
+	
+	<teaser_header_color>muy_claro</teaser_header_color>
+	<teaser_subheader_color>e4e4e4</teaser_subheader_color>
+	<teaser_subheader2_color>muy_claro</teaser_subheader2_color>
+	<teaser_text_color>e4e4e4</teaser_text_color>
+	
+	<seperator_line_color>muy_claro</seperator_line_color>
+	<seperator_line_alpha>15</seperator_line_alpha>
+	
+	<mct_header_color>muy_claro</mct_header_color>
+	<mct_question_color>muy_claro</mct_question_color>
+	<mct_help_color>muy_claro</mct_help_color>
+	<mct_status_bar_text_color>muy_claro</mct_status_bar_text_color>
+	<mct_answer_color>muy_claro</mct_answer_color>
+	<mct_answer_rollover_alpha>60</mct_answer_rollover_alpha>
+	<mct_image_bg_color>000000</mct_image_bg_color>
+	<mct_solution_solid_color>000000</mct_solution_solid_color>
+	<mct_solution_solid_alpha>40</mct_solution_solid_alpha>
+	<mct_solution_window_color>232323</mct_solution_window_color>
+	<mct_solution_alert_text_color>muy_claro</mct_solution_alert_text_color>
+	<mct_solution_message_text_color>muy_claro</mct_solution_message_text_color>
+	<mct_result_text_color>muy_claro</mct_result_text_color>
+	<mct_result_bg_color>232323</mct_result_bg_color>
+	<mct_result_image_alpha>50</mct_result_image_alpha>
+	
+	<directory_progress_bar_total_color>3a3a3a</directory_progress_bar_total_color>
+	<directory_progress_bar_seen_color>mittel_bis_hell</directory_progress_bar_seen_color>
+	
+	<quicknavi_gradient_color_top>mittel_bis_hell</quicknavi_gradient_color_top>
+	<quicknavi_gradient_color_bottom>oscuro</quicknavi_gradient_color_bottom>
+	<quicknavi_index_color>muy_claro</quicknavi_index_color>
+	<quicknavi_color>muy_claro</quicknavi_color>
+	<quicknavi_rollover_color>muy_claro</quicknavi_rollover_color>
+	<quicknavi_rollover_alpha>20</quicknavi_rollover_alpha>
+	
+</styles>
+

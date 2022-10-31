@@ -1,0 +1,55 @@
+    //console.log(data1[0]);
+                //console.log(JSON.stringify(data1[i]));
+
+
+
+                //alertify.success(usr + " registro el documento con ID: " + doc, 600);
+                /* alertify.notify('<p id="n2">' + estatus + '</p>' + usr + " registro el documento con ID: " + '<p id = "n1">' + doc + '</p>', 'custom', 600, function() {
+                     //let textoBusqueda = doc.replace(/['"]+/g, '');
+                     var id = $("#n1").text();
+                     var es = $('#n2').text();
+                     console.log("El p es: " + id);
+                     let textoBusqueda = id.replace(/['"]+/g, '');
+                     data = $('.ajs-message').text();
+                     console.log("es: " + data);
+                     console.log("es: " + textoBusqueda);
+                     if (es == 2) {
+                         //alert(es);
+                         //alert(id);
+                         //alert("documento turnado");
+                     } else if (es == 1) {
+                         $("#resultadoBusqueda").empty();
+                         $("#resultadoBusqueda").html("<img id='loading_document' src='../img/loading_p2.gif'>");
+                         setTimeout(function() {
+                             $.ajax({
+                                 type: 'POST',
+                                 url: '../Model/vista_documento.php',
+                                 data: { 'valorBusqueda': textoBusqueda },
+                                 success: function(e) {
+                                     $("#resultadoBusqueda").html(e);
+
+                                 },
+                             });
+                         }, 900);
+                     }
+                 });*/
+
+
+                      //usr = JSON.stringify(data_info2[1]);
+                //usr = usr.replace(/['"]+/g, '');
+                //doc = JSON.stringify(data_info2[2]);
+                //estatus = JSON.stringify(data_info2[3]);
+                //estatus = estatus.replace(/['"]+/g, '');
+                //console.log("nuevo documento registrado!!!");
+                //console.log(usr);
+                //console.log(doc);
+
+                      /*
+    $('body').on('click', '#toast-container', function(e) {
+        e.preventDefault();
+        alert($('#toast-container: last-chield').text());
+        console.log($('#toast-container: last-chield').text())
+        alert($(this).html());
+        alert($(this).children("p").text());
+    })
+*/

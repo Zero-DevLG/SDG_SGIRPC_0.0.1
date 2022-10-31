@@ -1,0 +1,15 @@
+
+@media (max-width:700px){
+    #navbar{
+        width: 10px;
+    }
+
+    #collapse_target a img{
+
+        width:420px;
+        height:50px;
+
+    }
+
+ 
+}

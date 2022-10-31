@@ -1,0 +1,236 @@
+@media (max-width: 1920px) {
+  body {
+    padding: 0;
+    margin: 0;
+  }
+
+  
+  
+  #encabezado_p{
+    position: relative;
+    overflow: hidden;
+    left: 90px;
+    top: 5px;
+    width: 1810px;
+    height: 80px;
+    background-color: rgb(253, 253, 253);
+    border-radius: 10px;
+    box-shadow: -10px 10px 10px -10px black;
+  }
+
+  #logo{
+    position: absolute;
+    width: 570px;
+    left: 30px;
+    top: 10px;
+  }
+
+  #menu_encabezado{
+    position: absolute;
+    overflow: hidden;
+    left: 660px;
+    
+    width: 1140px;
+    height: 300px;
+
+  }
+
+  #linea_menu{
+    position: absolute;
+    top: 65px;
+    left:0px;
+    width: 1100px;
+    border-bottom: 2px solid #c7c7c7;
+  }
+
+  #linea_menu2{
+    position: absolute;
+    top: 65px;
+    left: -1100px;
+    width: 1100px;
+    border-bottom: 2px solid #2479e9;
+  }
+
+  #side1 {
+    position: absolute;
+    overflow-y: auto;
+    overflow-x: hidden;
+    top: 120px;
+    left: 85px;
+    width: 900px;
+    height: 800px;
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: -10px 10px 10px -10px black;
+  }
+
+  #side2 {
+    position: absolute;
+    top: 120px;
+    left: 1050px;
+    width: 800px;
+    height: 800px;
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: -10px 10px 10px -10px black;
+  }
+
+  #btn_registro {
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    background-color: transparent;
+  }
+
+ 
+
+  #tabla_info {
+    position: absolute;
+    top:90px;
+    left: 20px;
+    width: 850px;
+    height: 750px;
+    font-size: 11px;
+  
+  }
+
+  #tabs_documentos {
+    position: absolute;
+    top: 45px;
+    left: 10px;
+    font-size: 10px;
+  }
+
+
+  #tabla_info table td{
+    width: 200px;
+  }
+
+  #home{
+    position: absolute;
+    top: 25px;
+    left: 680px;
+    width: 30px;    
+  }
+
+
+  #car{
+    position: absolute;
+    top: 16px;
+    left: 735px;
+    width: 45px;    
+  }
+  
+  #gas{
+    position: absolute;
+    top: 20px;
+    left: 785px;
+    width: 38px;    
+  }
+
+  #seguros{
+    position: absolute;
+    top: 8px;
+    left: 820px;
+    width: 60px;    
+  }
+
+
+  
+  #logout{
+    position: absolute;
+    top: 22px;
+    left: 995px;
+    width: 30px;    
+  }
+
+
+  #datos_usuario{
+    position: absolute;
+    left: 1100px;
+    top: 10px;
+    width: 600px;
+    height: 50px;
+    
+  }
+
+ 
+
+  #tabla_datos {
+    position: absolute;
+    top: -5px;
+    left: 40px;
+    font-size: 12px;
+    color: rgb(121, 121, 121);
+  }
+ 
+  #tabla_datos td{
+    width: 100px;
+  }
+
+  #tabla_direccion{
+    position: absolute;
+    top: 25px;
+    left: 40px;
+    font-size: 12px;
+    color: rgb(121, 121, 121);
+  }
+ 
+  #tabla_datos td{
+    width: 100px;
+  }
+
+  
+  #loading_p{
+    position: absolute;
+    left: 750px;
+    top: 300px;
+  }
+
+  #loading{
+    position: absolute;
+    left: 240px;
+    top: 200px;
+  }
+
+  #logo_mec{
+    position: absolute;
+    top: 50px;
+    left: 80px;
+    
+  }
+
+
+  #botones {
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    width: 50px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: -10px 10px 10px -10px black;
+
+  }
+
+  #reg_auto{
+    position: relative;
+    top: 0px;
+    left: -20px;
+    width: 70px;
+  }
+
+  #reg_auto:hover {
+    transform: rotate(405deg);
+   
+    transition: 0.5s;
+  }
+
+
+
+
+  #boton_seleccionar {
+    background-image: url("../img/iconos/editar.png");
+    display: block;
+  }
+}

@@ -1,0 +1,59 @@
+body
+{
+    padding: 0;
+
+}
+
+#botones
+{
+    position: relative;
+    height: 60px;
+    width: 400px;
+    top: 50px;
+    left: -280px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#usuarios
+{
+    position: relative;
+    height: 70%;
+    width: 90%;
+    top: 50px;
+    left: 90px;
+    background-color: white;
+    border-radius: 15px;
+    overflow-y: scroll;
+}
+
+#table1 {
+    position: relative;
+    left:20px;
+    top: 20px;
+    width: 50%;
+    font-size: 10px;
+}
+
+
+
+#titulo1 {
+    color: aliceblue;
+    font-family: monospace;
+    position: fixed;
+    left: 300px;
+    top: 94px;
+}
+
+#agregar {
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+
+#busqueda {
+    position: fixed;
+    left: 490px;
+    top: 80px;
+}

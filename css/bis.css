@@ -1,0 +1,172 @@
+#list_doc
+{
+    position: relative;
+    left: 90px;
+    top: 20px;
+    width: 800px;
+    height: 800px;
+    background-color: white;
+    box-shadow: -10px 10px 10px -10px black;
+    border-radius: 15px;
+    overflow-y: scroll;
+    
+}
+
+#container-bis
+{
+    position: absolute;
+    left: 910px;
+    top: 100px;
+    width: 920px;
+    height: 800px;
+    background-color: white;
+    box-shadow: -10px 10px 10px -10px black;
+    border-radius: 15px;
+    
+}
+
+#container
+{
+    
+    padding-right: 10px;
+    padding-left:10px;
+    text-align: center;
+}
+
+#table_bis
+{
+    font-size: 10px;
+}
+
+#container hr
+{
+    color: red;
+}
+
+#cab_bis
+{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background-color: #3d3e43;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;    
+}
+
+#banner_bis
+{
+    position: relative;
+    left: 250px;
+    top: 20px;
+    width: 300px;
+    margin: 0px auto;
+}
+
+/* Datos Bis */
+
+#cab_datos_folio
+{
+    position: relative;
+    top: -20px;
+    width: 100%;
+    height: 10%;
+    background-color: #3d3e43;
+    color: white;
+    text-align: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;    
+}
+
+#loading_document
+{
+    position: relative;
+    left: 250px;
+    top: 200px;
+}
+
+#null_bis
+{
+    position: relative;
+    left: 0px;
+    top: 100px;
+}
+
+#cab_datos_folio h3
+{   
+    position: relative;
+    top: 20px;
+
+}
+#datos_bis
+{
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: gray;
+}
+#show_bis
+{
+    position: absolute;
+    top: 200px;
+    left: 600px;
+    width: 300px;
+    height: 500px;
+    font-size: 10px;
+    overflow-y: scroll;
+}
+
+#lista_bis
+{
+    font-size: 10px;
+}
+
+#form_bis
+{
+    position: relative;
+    width: 60%;
+    height: 72%;
+    top: 5px;
+    left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    overflow-y: scroll;
+
+}
+#btnAdj
+{
+    position: absolute;
+    top: 10px;
+}
+#reg_doc
+{
+    position: absolute;
+    top: 10px;
+    left: 200px;
+}
+
+/*  */
+
+#content_uploadFile
+{
+  position: relative;
+  padding-top: 20px;
+  width: 700px;
+}
+ 
+#archivos_registrados{
+  position: relative;
+  padding-top: 20px;
+  left: 400px;
+  top: -170px;
+  font-size: 12px;
+  color: #6b6b6b;
+  width: 350px;
+}
+
+#datos_bis
+{
+    position: relative;
+    top: 20px;
+}

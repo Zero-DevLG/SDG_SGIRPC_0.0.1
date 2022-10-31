@@ -1,0 +1,297 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+#title-dir
+{
+    position: relative;
+    text-align: center;
+    width: 60%;
+    height: 50px;
+    background-color: rgb(55, 55, 55);
+    margin: auto;
+    color: white;
+    padding-top: 10px;
+    border-radius: 15px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    box-shadow: -10px 10px 10px -10px black;
+}
+
+#sep-main
+{
+    position: relative;
+    height: 5px;
+    color: rgb(168, 34, 61);
+}
+
+#doc_dir
+{
+    position: relative;
+    width: 100%;
+    font-size: 10px;        
+}
+
+#doc_dir_tr
+{
+    position: relative;
+    width: 100%;
+    font-size: 10px;        
+}
+
+#table_dep_at
+{
+    position: relative;
+    width: 100%;
+    font-size: 10px;
+}
+
+#table_dep_tr
+{
+    position: relative;
+    width: 100%;
+    font-size: 10px;
+}
+
+#doc_dir_t
+{
+    position: relative;
+    width: 100%;
+    font-size: 10px;        
+}
+
+#doc_dir_at
+{
+    position: relative;
+    width: 100%;
+    font-size: 10px;        
+}
+
+#doc_dir_arch
+{
+    position: relative;
+    width: 100%;
+    font-size: 10px;  
+}
+
+#doc_dir_p
+{
+    position: relative;
+    width: 100%;
+    font-size: 10px;        
+}
+
+#doc_dep
+{
+    position: relative;
+    font-size: 9.5px; 
+    
+}
+
+
+
+#view_data
+{
+    position: relative;
+}
+
+.nav
+{
+    position: relative;
+    top: 30px !important;
+    left: 30px !important;
+}
+
+#iframeI-2 {
+    position: relative;
+    overflow-y: auto;
+    top: 20px;
+    left: 40px;
+    width: 95%;
+    height: 800px;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: -10px 10px 10px -10px black;
+    padding-top: 20px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+#contenido_dinamico
+{
+    position: relative;
+    left: 20px;
+    width: 100% !important;
+    height: 800px !important;
+    color: rgb(58, 45, 145);
+}
+
+#myTabContent
+{
+    position: relative;
+    width: 100%;
+    top: 30px !important;
+    left: 20px !important;
+
+}
+
+
+
+#data
+{
+    position: relative;
+    text-align: center;
+    width: 95%;
+
+}
+
+
+/* navbar */
+
+.navbar
+{
+    position: relative;
+    background-color: white !important;
+}
+
+.navbar-brand img
+{
+    position: relative;
+    top: 5px !important;
+}
+
+
+/* TABS */
+
+
+.tab-pane
+{
+    position: relative !important;
+    padding: 20px !important;
+    width: 95% !important;
+}
+
+/* panel */
+.panel-options
+{
+    position: relative;
+    left: 3%;
+    background-color: rgb(46, 46, 46);
+    width: 200px;
+    height: 100px;
+    border-radius: 15px;
+    box-shadow: -10px 10px 10px -10px black;
+    padding: 10px;
+    padding-left: 20px;
+    color: aliceblue !important;
+}
+
+.data_table
+{
+    position: relative;
+    margin: auto;
+    top:10px;
+    width: 95%;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: -10px 10px 10px -10px black;
+    border: 1px solid black;
+    overflow: auto;
+ 
+}
+
+
+.sidebar-p
+{
+    position: absolute;
+    width: 40px;
+    background-color: rgb(149, 41, 41);
+    height: 800px;
+    z-index: 1;
+    transition: all ease-in 200ms;
+}
+
+
+
+ul
+{
+    position: absolute;
+    text-align: center;
+    list-style: none;
+    
+}
+
+/* sidebar */
+
+.option-s
+{
+    position: relative;
+    padding: 5px;
+    height: 35px;
+    display: flex;
+    text-align: center;
+    border-bottom: 1px solid white;
+    transition: all ease-in 300ms;
+    cursor: pointer;
+}
+
+.option-s:hover
+{
+    background-color: rgb(208, 151, 29);
+    color: white;
+}
+
+
+
+.img-side
+{
+    position: absolute;
+    width: 30px;
+   
+}
+
+.img-side-sb1
+{
+    position: absolute;
+    width: 20px;
+    left: 10px;
+   
+}
+
+.title-option
+{
+    position: relative;
+    left: 50px;
+    display: none;
+    color: white;
+    white-space: nowrap;
+}
+
+/* load */
+
+#load-data
+{
+    position: relative;
+    width: 900px;
+    margin: auto;
+    display: none;
+
+}
+
+#load-data img
+{
+    position: relative;
+    margin: auto;
+    left: 0px;
+
+}
+
+#loading-modal
+{
+    position: relative;
+    width: 480px;
+    margin: auto;
+}

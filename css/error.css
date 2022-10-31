@@ -1,0 +1,32 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+#head
+{
+  position: relative;
+  width: 100%;
+  background-color: rgb(164, 32, 32);
+  color: white;
+  text-align: center;
+  padding: 5px;  
+}
+
+#main
+{
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: rgb(72, 72, 72);
+
+}
+
+
+#main h2
+{
+    color: rgb(110, 110, 110);
+}
+

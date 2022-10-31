@@ -1,0 +1,73 @@
+#title_dashboard
+{
+    position: relative;
+    width: 400px;
+    height: 30px;
+    padding: 2px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(86, 86, 87);
+    margin: auto;
+    border-radius:10px;
+}
+
+.hr_ds
+{
+    position: relative;
+    width: 90%;
+    top: 10px;
+    height: 7px !important;
+    margin: auto;
+}
+#ind
+{
+    position: relative;
+    width: 90%;
+    top: 20px;
+    margin: auto;
+    color: black;
+    background-color: rgb(228, 217, 49);
+}
+
+#graph_1
+{
+    position: relative;
+    width: 90%;
+    height: 500px;
+    top: 40px;
+    margin: auto;
+    overflow-y: auto;
+}
+
+#stats
+{
+    position: relative;
+    display: flex;
+    top: 50px;
+    width: 90%;
+    margin: auto;
+}
+
+#table_stats
+{
+    position: relative;
+    width: 35%;
+    top: 50px;
+    font-size: 10px;
+}
+
+#graph_doc_reg
+{
+    position: relative;
+    width: 60%;
+    top: -50px;
+    left: 20px;
+}
+
+#graph_doc_stat
+{
+    position: relative;
+    width: 60%;
+    top: -50px;
+    left: 20px;
+}

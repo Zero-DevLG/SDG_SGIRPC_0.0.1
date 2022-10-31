@@ -1,0 +1,132 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+#head-turn
+{
+    position: relative;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    
+}
+
+#logo-head-turn
+{
+    position: relative;
+    top: 30px;
+    width: 320px;
+}
+
+#footer
+{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+/* DROPZONE */
+
+#dropzone
+{
+    position: relative;
+    width: 100%;
+    padding-bottom: 5px;
+   
+}
+
+#add_file_database
+{
+    position: relative;
+    display: flex;
+}
+
+.optionZone
+{
+    position: relative;
+    width: 40px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+
+#fileZone
+{
+    position: relative;
+    width: 100% !important;
+    display: flex;
+    border: 2px solid rgb(54, 132, 228) !important;
+}
+
+.dz-image
+{
+    position: relative;
+    width: 80px !important;
+    height: 80px !important;
+}
+
+#add_dir
+{
+    position: relative;
+    top: 30px;
+}
+
+/* Estilos turno dir p */
+#selected-p
+{
+    position: relative;
+    overflow-x: auto;
+    height: 120px;
+    top: 5px;
+    border: 2px solid rgb(63, 63, 63);
+    overflow-y: auto;
+    padding: 10px;
+}
+
+#option-s
+{
+    position: relative;
+    height: 30px;
+    padding: 2px;
+    font-size: 12px;
+    background-color: rgb(95, 188, 80);
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: all ease-in 200ms;
+}
+
+#option-s:hover
+{
+    background-color: rgb(225, 62, 62);
+}
+
+#add_dep
+{
+    position: relative;
+    top: 30px;
+}
+
+#delete-p
+{
+    position: relative;
+    float: left;
+    width: 25px;
+    cursor: pointer;
+}
+
+#formulario-turno
+{
+    position: relative;
+    height: 630px;
+    overflow-y: auto;
+}

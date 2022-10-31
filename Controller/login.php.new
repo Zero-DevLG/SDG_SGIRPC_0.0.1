@@ -1,0 +1,83 @@
+<?php
+date_default_timezone_set("America/Mexico_City");
+include("../Model/Conexion.php");
+
+$base = new PDO("mysql:host=192.185.131.125; dbname=akashasy_archivo2", "akashasy_admin", "12345");
+
+$base->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+//$sql="select * from usuarios_pass where USUARIOS= :login and PASSWORD= :password";
+$sql = "SELECT * FROM empleado  where usuario= :login and password=:password ";
+//$sql2="select area from usuarios_pass where USUARIOS= :login and PASSWORD= :password";
+$resultado = $base->prepare($sql);
+//$resultado2=$base->prepare($sql2);
+
+
+$login = htmlentities(addslashes($_POST["usr"]));
+$password = htmlentities(addslashes($_POST["pass"]));
+$resultado->bindValue(":login", $login);
+$resultado->bindValue(":password", $password);
+
+//$resultado2->bindValue(":login", $login);
+//$resultado2->bindValue(":password", $password);
+
+
+$resultado->execute();
+//$resultado2->execute();
+
+$numero_registro = $resultado->rowCount();
+//echo $numero_registro;
+
+if ($numero_registro != 0) {
+    //$valido = 1;
+
+    $lista = $resultado->fetchall(PDO::FETCH_ASSOC);
+    foreach ($lista as $mostrar) {
+
+        $nombre = $mostrar['nombre'];
+        $apellido = $mostrar['apellido'];
+        $foto = $mostrar['foto'];
+        $id_direccion = $mostrar['id_direccion'];
+        $usuario = $mostrar['usuario'];
+        $id_empleado = $mostrar['id_empleado'];
+        $n_empleado = $mostrar['n_empleado'];
+        $login = $mostrar['last_login'];
+        $email = $mostrar['email'];
+        $activo = $mostrar['activo'];
+    }
+    if ($activo == 0) {
+        $valido = 2;
+    } else {
+        session_start();
+        $gen_priv = $pdo->prepare("SELECT mc.id_empleado,mc.id_plataforma,mc.tipo_rol FROM modulo_cd as mc WHERE mc.id_empleado = '$id_empleado'");
+        $gen_priv->execute();
+        $lista_gen_priv = $gen_priv->fetchAll(PDO::FETCH_ASSOC);
+        $_SESSION['privilegios'] = $lista_gen_priv;
+        $_SESSION["foto"] = $foto;
+        $_SESSION["id_direccion"] = $id_direccion;
+        $_SESSION["nombre"] = $nombre;
+        $_SESSION["usuario"] = $usuario;
+        $_SESSION["id_empleado"] = $id_empleado;
+        $_SESSION["apellido"] = $apellido;
+        $_SESSION['n_empleado'] = $n_empleado;
+        $_SESSION['last_login'] = $login;
+
+
+        foreach ($lista_gen_priv as $mostrar) {
+            $_SESSION['tipo_rol'] = $mostrar['tipo_rol'];
+            $_SESSION['id_plataforma'] = $mostrar['id_plataforma'];
+        }
+
+        switch ($_SESSION['id_plataforma']) {
+            case 0:
+                echo $_SESSION['id_plataforma'];
+                $valido = 4;
+                $url = "/View/registro_vehicular";
+
+                break;
+            case 2:
+                $url = "registro_vehiculos.php";
+                header('Location:../View/registrar_vehiculo.php');
+                break;
+        }
+    }
+}

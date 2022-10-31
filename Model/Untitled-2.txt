@@ -1,0 +1,86 @@
+<div id="#contenido_dinamico">
+        <div id="dia_anterior">
+            <div id="encabezado_bitacora1">
+                <h4>Asuntos del dia:</h4>
+                <input id="fecha_a" type="date" class="form-control">
+                <label for=""> </label>
+            </div>
+
+            <div id="tabla_actividades">
+
+            </div>
+
+        </div>
+
+        <div id="dia_actual">
+            <div id="contenido_a">
+                <h4>Registrar actividad:</h4>
+                <label id="reg_asunto" for=""></label>
+            </div>
+            <div id="formulario_registro">
+                <div class="form-container" style="position: relative; left:10px;">
+                    <div class="form-row">
+                        <div class="col-md-1">
+                            <img id="img_usr" width="65px" style="position:absolute; top:10px; left:10px; "
+                                src="../imagenes/<?php echo $_SESSION['foto']; ?>" />
+                        </div>
+                        <div class="col-md-9">
+                            <textarea class="form-control" name="asunto" id="txtasunto" cols="10" rows="2"
+                                placeholder="Escribe aqui el titulo de la actividad..."></textarea>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-md-4">
+                            <h4>Estado:</h4>
+                            <select name="" id="txtestado" class="form-control"
+                                style="position:relative; top:-20px; left:80px;">
+                                <option value="0">Pendiente</option>
+                                <option value="1">Atendido</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4">
+                            <input type="hidden" id="input_destacado" value="0">
+                        </div>
+                    </div>
+
+
+                    <div class="form-row">
+                        <div class="col-md-12">
+                            <button id="btnRegAs" class="btn btn-sm btn-primary">Registrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="mis_actividades">
+                <div id="datos_mis_actividades">
+                    <table id="tabla_mis_actividades" style="cursor:pointer;"
+                        class="table table-sm table-borderedless table-hover">
+                        <thead>
+                            <tr>
+                                <th>id_actividad</th>
+                                <th>asunto</th>
+                                <th>fecha_registro</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+            <div id="panel2_bit">
+                <ul class='nav nav-tabs' id="tabs_do">
+
+                    <li><a data-toggle="tab" href="#menu_g">Generados</a></li>
+                    <li><a data-toggle="tab" href="#menu_as">Asignados</a></li>
+
+                </ul>
+
+                <div class="tab-content">
+
+                </div>
+
+            </div>
+        </div>
+    </div>

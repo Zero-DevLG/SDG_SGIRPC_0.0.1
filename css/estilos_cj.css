@@ -1,0 +1,18 @@
+th
+{
+    position: relative;
+    font-size: 10px;
+}
+
+td
+{
+    position: relative;
+    font-size: 10px;
+}
+
+#s_id
+{
+    position: relative;
+    width: 100px;
+    left: 50px;
+}

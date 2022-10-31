@@ -1,0 +1,66 @@
+#contenido {
+    position: relative;
+    top: 20px;
+}
+
+#list_usr {
+    position: relative;
+    width: 90%;
+    left: 20px;
+    top: 50px;
+    font-size: 10px;
+}
+
+#usr {
+    font-size: 10px;
+}
+
+#ticket_open_pos {
+    position: relative;
+    width: 90%;
+    left: 20px;
+    top: 50px;
+    font-size: 10px;
+}
+
+#ticket_open {
+    font-size: 10px;
+}
+
+#subPage {
+    position: relative;
+    top: 40px;
+}
+
+#data_usr {
+    position: relative;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    top: 15%;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+#img_usr2 {
+    position: relative;
+    width: 100px;
+    left: 40%;
+    top: 5%;
+}
+
+#datos_usuario2 {
+    position: relative;
+    left: 25%;
+    top: 10%;
+    width: 90%;
+    height: 70%;
+    padding-left: 20px;
+    padding-top: 20px;
+    color: rgb(78, 78, 78);
+}
+
+#subnav_r {
+    position: absolute !important;
+    top: 150px !important;
+}

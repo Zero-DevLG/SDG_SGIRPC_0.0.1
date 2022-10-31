@@ -1,0 +1,18 @@
+<div id="bitacora_apartado">
+            <h4>Bitacora</h4>
+            <label id="seccion_bitacora" for=""></label>
+            <h5 style="position: relative; top:-8px;">Consultar Bitacora de la fecha:</h5>
+            <input style="position:absolute; width:200px; top:33px; left:200px;" class="form-control" type="date"
+                id="fecha_bitacora">
+            <div id="datos_tiempo_real">
+
+            </div>
+        </div>
+
+
+
+        <div id="panel_o">
+                        <img id="destacado" src="../img/iconos/star_off.png" alt="" title="Asunto destacado">
+                        <img id="users" src="../img/iconos/users.png" title="Etiquetar colaboradores">
+                        <img id="link" src="../img/iconos/link.png" title="Enlazar documento(s) al asunto">
+                    </div>

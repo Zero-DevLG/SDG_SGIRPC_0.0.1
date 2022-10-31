@@ -1,0 +1,29 @@
+.main_banner
+{
+    position: relative;
+    width: 95%;
+    margin: auto;
+   
+}
+
+.banner1
+{
+    position: relative;
+    width: 90%;
+    margin: auto;
+
+    text-align: center;
+}
+
+.img-carrusell
+{
+    position: relative;
+    margin: auto;
+    box-shadow: -15px 7px 0px -2px rgba(0,0,0,0.59);
+    border: 2px solid black;
+}
+
+.banner1
+{
+    
+}

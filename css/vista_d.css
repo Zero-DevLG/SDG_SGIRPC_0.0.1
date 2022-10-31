@@ -1,0 +1,179 @@
+#cabezera img {
+  position: absolute;
+  width: 200px;
+  top: 45px;
+  left: 35px;
+}
+
+#stf1 {
+  font-size: 12px;
+  position: absolute;
+  color: rgb(109, 109, 109);
+  top: 110px;
+  left: 218px;
+}
+#stf2 {
+  font-size: 12px;
+  position: absolute;
+  color: rgb(109, 109, 109);
+  top: 135px;
+  left: 218px;
+}
+
+#f1 {
+  font-size: 12px;
+  position: absolute;
+  color: rgb(61, 61, 61);
+  top: 105px;
+  left: 335px;
+}
+
+#f2 {
+  position: absolute;
+  color: rgb(61, 61, 61);
+  top: 127px;
+  left: 335px;
+}
+#folio {
+  position: absolute;
+  color: rgb(109, 109, 109);
+  top: 172;
+  left: 30px;
+}
+#folio_1 {
+  position: absolute;
+  color: rgb(61, 61, 61);
+  top: 173;
+  left: 122px;
+}
+
+#remitente {
+  position: absolute;
+  color: rgb(109, 109, 109);
+  top: 197px;
+  left: 30px;
+}
+#remitente_1 {
+  position: absolute;
+  color: rgb(61, 61, 61);
+  top: 198px;
+  left: 122px;
+}
+#cargo {
+  position: absolute;
+  color: rgb(109, 109, 109);
+  top: 220px;
+  left: 30px;
+}
+#cargo_1 {
+  width: 350px;
+  position: absolute;
+  color: rgb(61, 61, 61);
+  top: 222px;
+  left: 122px;
+}
+#t_d {
+  position: absolute;
+  top: 5px;
+  left: 180px;
+  color: rgb(109, 109, 109);
+}
+#t_d1 {
+  position: absolute;
+  top: 50px;
+  left: 320px;
+  color: rgb(138, 15, 15);
+  font-size: 20px;
+}
+#asunto {
+  position: absolute;
+  color: rgb(109, 109, 109);
+  top: 290px;
+  left: 30px;
+}
+
+#asunto1 {
+  font-size: 15px;
+  width: 350px;
+  position: absolute;
+  color: rgb(18, 116, 59);
+  top: 288px;
+  left: 122px;
+}
+
+#destino {
+  position: absolute;
+  color: rgb(109, 109, 109);
+  top: 340px;
+  left: 30px;
+}
+
+#destino1 {
+  width: 350px;
+  position: absolute;
+  color: rgb(61, 61, 61);
+  top: 340px;
+  left: 122px;
+}
+
+#cargo_d {
+  position: absolute;
+  color: rgb(109, 109, 109);
+  top: 365px;
+  left: 30px;
+}
+
+#cargo_d1 {
+  width: 350px;
+  position: absolute;
+  color: rgb(61, 61, 61);
+  top: 365px;
+  left: 122px;
+}
+
+#ant {
+  position: absolute;
+  color: rgb(109, 109, 109);
+  top: 411px;
+  left: 30px;
+}
+
+#ant1 {
+  width: 350px;
+  position: absolute;
+  color: rgb(61, 61, 61);
+  top: 411px;
+  left: 122px;
+}
+
+#subnav {
+  position: absolute;
+  -moz-border-radius: 9px;
+  -webkit-border-radius: 9px;
+  top: 520px;
+  left: 20%;
+  background-color: rgb(4, 145, 4, 0.7);
+  width: 300px;
+  height: 50px;
+}
+
+#resp {
+  position: absolute;
+  top: 10px;
+  left: 80px;
+  width: 30px;
+}
+
+#edt {
+  position: absolute;
+  top: 2px;
+  left: 130px;
+  width: 40px;
+}
+
+#ver_a {
+  position: absolute;
+  top: 5px;
+  left: 180px;
+  width: 40px;
+}

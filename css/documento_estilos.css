@@ -1,0 +1,129 @@
+@media (max-width: 1920px) {
+    #table1 {
+        position: absolute;
+        left: 1000px;
+        width: 200%;
+    }
+
+    #ModalR
+    {
+        background-color: blue;
+        z-index: 1;
+    }
+    th {
+        width: 10%;
+        overflow-wrap: break-word;
+        font-size: 70%;
+    }
+    td {
+        width: fixed;
+        overflow-wrap: break-word;
+        font-size: 70%;
+    }
+    #c_t {
+        position: absolute;
+        top: 1000px;
+    }
+    #box1 {
+        position: absolute;
+        left: 200px;
+        width: 80%;
+        background-color: aliceblue;
+    }
+    #formu {
+        color: aliceblue;
+        position: absolute;
+        text-align: center;
+        width: 1200px;
+        height: 1200px;
+        left: 350px;
+        top: 120px;
+        margin-bottom: 1.5em;
+        background: rgba(0, 155, 62, 0.9);
+        padding: 50px;
+        border-radius: 10px 10px 15px 15px;
+        -moz-border-radius: 15px 15px 15px 15px;
+        -webkit-border-radius: 15px 15px 15px 15px;
+        border: 0px solid #000000;
+    }
+}
+
+@media (max-width: 1370px) {
+    #table1 {
+        position: absolute;
+        left: 1000px;
+        width: 200%;
+    }
+    th {
+        width: 10%;
+        overflow-wrap: break-word;
+        font-size: 70%;
+    }
+    td {
+        width: fixed;
+        overflow-wrap: break-word;
+        font-size: 70%;
+    }
+    #box1 {
+        position: absolute;
+        left: 200px;
+        width: 80%;
+        background-color: aliceblue;
+    }
+    #formu {
+        color: aliceblue;
+        position: absolute;
+        text-align: center;
+        width: 800px;
+        height: 1000px;
+        left: 300px;
+        top: 120px;
+        margin-bottom: 1.5em;
+        background: rgba(0, 155, 62, 1);
+        padding: 50px;
+        border-radius: 10px 10px 15px 15px;
+        -moz-border-radius: 15px 15px 15px 15px;
+        -webkit-border-radius: 15px 15px 15px 15px;
+        border: 0px solid #000000;
+    }
+}
+
+@media (max-width: 720px) {
+    #table1 {
+        position: absolute;
+        left: 1000px;
+        width: 200%;
+    }
+    th {
+        width: 10%;
+        overflow-wrap: break-word;
+        font-size: 70%;
+    }
+    td {
+        width: fixed;
+        overflow-wrap: break-word;
+        font-size: 70%;
+    }
+    #box1 {
+        position: absolute;
+        left: 200px;
+        width: 80%;
+        background-color: aliceblue;
+    }
+    #formu {
+        color: aliceblue;
+        position: absolute;
+        text-align: center;
+        width: 800px;
+        height: 900px;
+        left: 300px;
+        top: 120px;
+        margin-bottom: 1.5em;
+        background: rgba(0, 155, 62, 1);
+        padding: 50px;
+        border-radius: 10px 10px 15px 15px;
+        -moz-border-radius: 15px 15px 15px 15px;
+        -webkit-border-radius: 15px 15px 15px 15px;
+        border: 0px solid #000000;
+    }
+}

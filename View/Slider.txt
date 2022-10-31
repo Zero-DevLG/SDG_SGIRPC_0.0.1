@@ -1,0 +1,175 @@
+Slider 
+---------------------
+<br>
+    <div class="form-group">
+        <div class="form-row">
+            <div class="col-md-1"></div>
+            <div class="col-md-9">
+
+                <!--Sheet Slider-->
+
+
+
+                <div class="sheetSlider sh--default">
+                    <input id="s1" type="radio" name="slide1" checked />
+                    <input id="s2" type="radio" name="slide1" />
+                    <input id="s3" type="radio" name="slide1" />
+                    <div class="sh__content">
+
+                        <!-- Slider Item -->
+                        <div class="sh__item">
+                            <img src="../img/banner_1.jpg" alt="imgText" width="100%" height="100%" />
+                            <!-- Item Info -->
+                            <div class="sh__meta">
+                                <h4>Registra Documentos</h4>
+                                <span>Clic aqui <a href="consulta_d.php">Ir !</a></span>
+                            </div>
+                        </div>
+
+                        <!-- Slider Item -->
+                        <div class="sh__item">
+                            <img src="../img/banner_2.jpg" alt="imgText" width="100%" height="100%" />
+                            <!-- Item Info -->
+                            <div class="sh__meta">
+                                <h4>Responder y Turnar Documentos</h4>
+                                <span>Clic aqui<a href="consulta_t.php"> Ir ! </a></span>
+                            </div>
+                        </div>
+
+                        <!-- Slider Item -->
+                        <div class="sh__item">
+                            <img src="../img/banner_3.jpg" alt="imgText" width="100%" height="100%" />
+                            <!-- Item Info -->
+                            <div class="sh__meta">
+                                <h4>Historico</h4>
+                                <span>Clic aqui <a href="historico.php"> Ir !</a></span>
+                            </div>
+                        </div>
+
+                    </div><!-- .sh__content -->
+
+                    <!--botones-->
+                    <div class="sh__btns">
+                        <label for="s1"></label>
+                        <label for="s2"></label>
+                        <label for="s3"></label>
+                    </div><!-- .sh__btns -->
+
+                    <!--flechas-->
+                    <div class="sh__arrows">
+                        <label for="s1"></label>
+                        <label for="s2"></label>
+                        <label for="s3"></label>
+                    </div><!-- .sh__arrows -->
+
+                </div><!-- .sheetSlider -->
+            </div>
+        </div>
+        <br>
+
+        --------------------------------------------------
+
+        script inprimir pdf
+
+        <script type="text/javascript">
+    $(document).ready(function() {
+        $.ajax({
+            type: "POST",
+            url: "prueba.php",
+            success: function(data) {
+                $
+            }
+        })
+    })
+    </script>
+
+    -----------------------------------------------------------
+
+    Boton registrar
+
+    <div class="form-row">
+        <div class="col-md-1"></div>
+        <div class="col-md-2">
+            <a class="btn btn-primary" style="color:white" href="documentos.php">Registrar +</a>
+            <br>
+            <br>
+        </div>
+        <div class="col-md-7">
+            <img src="../img/documentos_registrados.jpg" width="600px" height="50px" />
+        </div>
+        <div class="col-md-2">
+
+            <div class="wrap">
+                <div class="widget">
+                    <div class="fecha">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <?php
+        $prueba = 1;
+
+        if ($prueba == 1) { ?>
+        <script>
+        document.getElementById("n1").src = "../img/nt2.png";
+        </script>
+        <?php } ?>
+
+    </div>
+    ---------------------------------------------------------------------------------------
+    Modal
+
+    
+    <!-- Modal   -->
+
+    <div class="container">
+
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Estado del Documento</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <?php
+
+                        $sentencia = $pdo->prepare("SELECT * from documentos where id_documento=1");
+                        $sentencia->execute();
+                        $lista_map = $sentencia->fetchAll(PDO::FETCH_ASSOC);
+
+                        ?>
+
+                        <div background="../img_maps/m1.png">
+
+                            <?php foreach ($lista_map as $mostrar) { ?>
+                            <h6 onclick="alert('<?php $mostrar['asunto'] ?>');">
+                                <?php echo $mostrar['area_o']; ?><img src="../img_maps/m1.png"></h6>
+
+
+                            <?php } ?>
+
+                        </div>
+
+
+
+                    </div>
+                    <div class="modal-footer">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    </div>

@@ -1,0 +1,157 @@
+@media (max-width: 1920px) {
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  #botones_opciones {
+    position: absolute;
+    background-color: rgb(216, 216, 213);
+    top: -25px;
+    left: 30px;
+    width: 200px;
+    height: 30px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+  }
+
+  #detalles {
+    position: absolute;
+    top: 150px;
+    left: 20px;
+    text-align: center;
+    border-radius: 5px;
+    width: 250px;
+    height: 50px;
+    background-color: rgb(168, 167, 167);
+    font-size: 12PX;
+    color: rgb(255, 255, 255);
+  }
+  #detalles h5{
+    position: absolute;
+    left: 30px;
+  }
+  #img_detalles {
+    position: absolute;
+    top: 0px;
+    left: -70px;
+    width: 150px;
+    z-index: 1;
+  }
+
+  #img_detalles img {
+    position: absolute;
+    width: 50px;
+  }
+
+  #pagos_programados{
+    position: absolute;
+    width: 800px;
+    height: 200px;
+    top: 230px;
+    left: 0px;
+    
+  }
+
+  #datos_pagos{
+    position: absolute;
+   
+    top: 20px;
+    left: 200px;
+    width: 500px;
+    height: 150px;
+    
+  }
+
+  #pagos_programados img{
+    position: relative;
+    width: 200px;
+
+  }
+
+
+  #salud_vehiculo{
+    position: absolute;
+    top: 500px;
+    left: 0px;
+   
+    width: 800px;
+    height: 400px;
+  }
+
+  #salud_vehiculo img{
+    position: absolute;
+    top: -50px;
+    left: 540px;
+    width: 250px;
+  }
+
+  #datos_salud{
+    position: absolute;
+    left: 20px;
+    top: 50px;
+    width: 500px;
+    
+
+  }
+
+  #panel_datos {
+    position: relative;
+    overflow-x: hidden;
+    width: 800px;
+    height: 800px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+  }
+
+  #cabezera {
+    position: relative;
+    background-image: url(../img/cabezera_vehiculo2.jpg);
+    top: -10px;
+    left: -400px;
+    width: 900px;
+    height: 250px;
+    background-color: rgba(125, 146, 211, 0.932);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    color: rgb(102, 101, 101);
+    transition: all 1.5s ease-in-out;
+    transform: translate(400px, 0);
+    -webkit-transform: translate(400px, 0); /** Chrome & Safari **/
+    -o-transform: translate(4000px, 0); /** Opera **/
+    -moz-transform: translate(400px, 0); /** Firefox **/
+  }
+  #datos_cabezera {
+    position: relative;
+    top: 10px;
+    left: 10px;
+  }
+
+ 
+
+  #datos_driver {
+    position: absolute;
+    background-image: url(../img/driver_main.jpg);
+    top: 250px;
+    right: 0px;
+    height: 250px;
+    width: 800px;
+    
+  }
+  #direccion_datos {
+    position: absolute;
+    background-image: url(../img/direccion_datos2.jpg);
+    top: 650px;
+    left: 0px;
+    height: 250px;
+    width: 600px;
+    
+  }
+  #tabla_vehiculo {
+    position: relative;
+    top: 30px;
+    left: 20px;
+    font-size: 12px;
+    color: rgb(114, 114, 114);
+    width: 520px;
+  }
+}

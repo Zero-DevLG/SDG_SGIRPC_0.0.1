@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<content>
+	<area area="left" header="video2brain en la web" subheader="Para estar siempre al día">
+		<element type="link_teaser" link="http://blog.video2brain.com/es/" previewimage="media/v2b_blog.png" header="El blog de video2brain España" text="Noticas, novedades y trucos sobre el mundo de los vídeo-tutoriales con enlaces directos, especialmente pensados para nuestro público de España." />
+		<element type="link_teaser" link="http://twitter.com/v2bes" previewimage="media/v2b_twitter_ES.png" header="Twitter de video2brain España" text="Información al momento de nuevos lanzamientos; con trucos diarios, enlaces directos a vídeos gratis y atención al cliente." />
+		<element type="link_teaser" link="http://blog.video2brain.com/mx/" previewimage="media/v2b_blog.png" header="El blog de video2brain Latinoamérica" text="Noticas, novedades y trucos sobre el mundo de los vídeo-tutoriales con enlaces directos, especialmente pensados para nuestro público de Lationamérica." />
+		<element type="link_teaser" link="http://twitter.com/v2bmx" previewimage="media/v2b_twitter_MX.png" header="Twitter de video2brain Latinoamerica" text="Información al momento de nuevos lanzamientos; con trucos diarios, enlaces directos a vídeos gratis y atención al cliente." />
+	<element type="link_teaser" link="http://www.youtube.com/user/mivideo2brain" previewimage="media/v2b_youtube.png" header="Nuestro canal de vídeos en YouTube" text="Para enlazar en tu blog, o solo para disfrutar de nuestros vídeos gratis." />
+		<element type="link_teaser" link="http://www.video2brain.com/es/newsletter.htm" previewimage="media/v2b_newsletter.png" header="La newsletter de video2brain" text="Siempre informad@ de lanzamientos, novedades, trucos y descuentos muy interesantes." />
+
+		
+	</area>
+	<area area="right" header="Podcasts" subheader="Los podcast de video2brain">
+				<element type="link_teaser" link="http://blog.video2brain.com/podcast_es/" previewimage="media/v2b_podcast.png" header="Vídeo-podcast general" text="Un vídeo nuevo cada semana, para que puedas verlo en tu iPhone, iPod o dispositivo móvil: desarrollo web, programación, etc." />
+		<element type="link_teaser" link="http://blog.video2brain.com/photoshop_es/" previewimage="media/v2b_podcast.png" header="Vídeo-podcast Photoshop" text="Un vídeo nuevo cada semana, para que puedas verlo en tu iPhone, iPod o dispositivo móvil: fotografía, imagen digital, retoque y montajes." />
+		<element type="link_teaser" link="http://blog.video2brain.com/indesign_es/" previewimage="media/v2b_podcast.png" header="Vídeo-podcast InDesign" text="Un vídeo nuevo cada semana, para que puedas verlo en tu iPhone, iPod o dispositivo móvil: ilustración, maquetación editorial y diseño gráfico." />
+		
+	</area>
+</content>
+
